@@ -20,12 +20,6 @@ app.get("/", function(req, res){
     "<br>Hash rate: " + hashRate);
 });
 
-app.get("/block", function(req, res){
-
-    res.sendfile("index.html");
-
-});
-
 app.listen(80, function(){
     console.log("go");
 });
